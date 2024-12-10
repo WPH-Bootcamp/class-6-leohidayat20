@@ -34,7 +34,7 @@ $weights: (
   }
 }
 
-// @mixin typography($size) {
+@include typography('sal', 'salah'); // @mixin typography($size) {
 //   @if map.has-key($sizes, $size) {
 //     @each $key, $value in map.get($sizes, $size) {
 //       #{$key}: $value;
